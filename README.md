@@ -16,14 +16,14 @@ An instant HTTP API testing suite - type-safe alternative to Postman/curl that i
 ## Installation
 
 ```bash
-cargo install x-http
+cargo install xs-http
 ```
 
 Or add to your `Cargo.toml`:
 
 ```toml
 [dev-dependencies]
-x-http = "0.1"
+xs-http = "0.1"
 ```
 
 ## Quick Start
@@ -31,7 +31,7 @@ x-http = "0.1"
 ### As a Library (Recommended)
 
 ```rust
-use x_http::*;
+use xs_http::*;
 
 #[test]
 fn test_api_endpoint() {

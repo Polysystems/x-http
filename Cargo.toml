@@ -1,5 +1,5 @@
 [package]
-name = "x-http"
+name = "xs-http"
 version = "0.1.0"
 edition = "2021"
 description = "Instant HTTP API testing suite - type-safe alternative to Postman/curl"
